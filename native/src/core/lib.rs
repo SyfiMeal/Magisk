@@ -192,7 +192,6 @@ pub mod ffi {
         fn zygisk_close_logd();
         fn zygisk_get_logd() -> i32;
         fn setup_logfile();
-        fn clean_mounts();
         fn find_preinit_device() -> String;
         fn revert_unmount(pid: i32);
         fn zygisk_should_load_module(flags: u32) -> bool;
